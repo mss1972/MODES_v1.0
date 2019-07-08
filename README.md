@@ -10,7 +10,7 @@ Once you have installed it, there will be a html directory containing all help y
 If you open the matlab documentation (command _doc_) you will also find a special section for this toolbox.
 
 The package should include the following files:
-* main file: modes.m,
+* modes.m: main file,
 * info.xml: auxiliary file, needed to create the toolbox documentation,
 
 and the following directories:
