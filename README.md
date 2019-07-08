@@ -1,5 +1,13 @@
 # MODES_v1.0
-MODES is a Matlab Toolbox for the solution of initial value problems.
+MODES is a Matlab Toolbox for the solution of Initial Value Problems with variable step size and variable order linear multistep methods.
+
+The implementation is based on a new parametric, grid-independent representation of linear multistep methods. Parameters are supplied̈ for over 60 methods. 
+
+For nonstiff problems, all maximal order methods are supported. For stiff computation, implicit k steps methods of order k are included.
+
+A collection of step-size controllers based on digital filters is provided, generating smooth step-size sequences offering improved computational stability. Controllers may be selected to match method and problem classes. 
+
+A new system for automatic order control (p-adaptivity) is also provided for designated families of multistep methods, offering simultaneous step size and order adaptivity.
 
 # How to install MODES_v1.0
 In order to install it you only need to download the included mlappinstall file and install it within matlab, with  the _Install App_.
