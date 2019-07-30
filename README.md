@@ -26,7 +26,7 @@ and the following directories:
 * +ode: .m files for defining initial value problems.
 * +tools: tools designed to study properties of linear multistep methods and initial value problems. You can find more information about the functions here in html/how_to_methods.html.
 * examples: contains three m files used to generate the html files.
-* html: MODES documentation.
+* html: MODES documentation. You may start reading _getting_started.html_, but it is better to open the matlab documentation and read there the section associated to MODES.
 * mexSources: **MODES can run faster if you have a C compiler installed in your computer. If this is case you should run the function _buildMex.m_ in the +tools directory before you start using MODES**.
 * scripts: m files to solve all initial value problems in the +ode directory using Modes. The initial value problems in +ode have been solved using explicit (explicit methods), implicitK (implicit k steps methods of order k) or implicitKPlus1 (implicit k steps methods of order k+1),
 * tests: Function for testing purposes. It tests whether MODES throws the right exceptions when called with wrong input arguments. To run the tests call: runtests('inputCheckTests.m').
