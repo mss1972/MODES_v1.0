@@ -10,7 +10,7 @@ A collection of step-size controllers based on digital filters is provided, gene
 A new system for automatic order control (p-adaptivity) is also provided for designated families of multistep methods, offering simultaneous step size and order adaptivity.
 
 # How to install MODES_v1.0
-In order to install it you only need to download the included mlappinstall file and install it within matlab, with  the _Install App_.
+In order to install it you only need to download the included mlappinstall file and install it within matlab, using  the matlab _Install App_.
 
 # How to use MODES_v1.0
 Once you have installed it, there will be a html directory containing all help you need to start using the code. 
