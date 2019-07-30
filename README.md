@@ -28,5 +28,5 @@ and the following directories:
 * examples: contains three m files used to generate the html files.
 * html: MODES documentation. You may start reading _getting_started.html_, but it is better to open the matlab documentation and read there the section associated to MODES.
 * mexSources: **MODES can run faster if you have a C compiler installed in your computer. If this is case you should run the function _buildMex.m_ in the +tools directory before you start using MODES**.
-* scripts: m files to solve all initial value problems in the +ode directory using Modes. The initial value problems in +ode have been solved using explicit (explicit methods), implicitK (implicit k steps methods of order k) or implicitKPlus1 (implicit k steps methods of order k+1),
-* tests: Function for testing purposes. It tests whether MODES throws the right exceptions when called with wrong input arguments. To run the tests call: runtests('inputCheckTests.m').
+* scripts: m files to solve all initial value problems in the +ode directory using Modes. The initial value problems in +ode have been solved using explicit methods (in _explicit_ directory), implicit k steps methods of order k (in _implicitK_ directory) or implicit k steps methods of order k+1 (in _implicitKPlus1_ directory),
+* tests: Function for testing purposes. It tests whether MODES throws the right exceptions when called with wrong input arguments. To run the tests call: _runtests('inputCheckTests.m')_.
